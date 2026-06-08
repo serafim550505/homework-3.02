@@ -97,10 +97,10 @@ public class Main {
         method2 = loseWeight / method2;
         System.out.println(" 1 метод потребуется " + method1 + " дней. " + " на 2 метод потребуется " + method2 + "дней.");
         int average = (int) ((method1 + method2) / 2);
-        System.out.println(" В среднем потребуется " + average + " дней \n");
+        System.out.println(" В среднем потребуется " + average + " дней   \n");
 
 
-        System.out.println(" задача № 8");
+        System.out.println(" задача № 8 ");
         double masha = 67760;
         double denis = 83690;
         double kristina = 76230;
