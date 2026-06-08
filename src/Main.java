@@ -101,24 +101,24 @@ public class Main {
 
 
         System.out.println(" задача № 8");
-        double Masha = 67760;
-        double Denis = 83690;
-        double Kristina = 76230;
-        int yearm = (int) Masha * 12;
-        int yeard = (int) Denis * 12;
-        int yeark = (int) Kristina * 12;
-        Masha = (Masha * 0.1) + Masha;
-        Denis = (Denis * 0.1) + Denis;
-        Kristina = (Kristina * 0.1) + Kristina;
-        int yearM = (int) (Masha * 12);
-        int yearD = (int) (Denis * 12);
-        int yearK = (int) (Kristina * 12);
+        double masha = 67760;
+        double denis = 83690;
+        double kristina = 76230;
+        int yearm = (int) masha * 12;
+        int yeard = (int) denis * 12;
+        int yeark = (int) kristina * 12;
+        masha = (masha * 0.1) + masha;
+        denis = (denis * 0.1) + denis;
+        kristina = (kristina * 0.1) + kristina;
+        int yearM = (int) (masha * 12);
+        int yearD = (int) (denis * 12);
+        int yearK = (int) (kristina * 12);
         int wageDifferenceM = yearM - yearm;
         int wageDifferenceD = yearD - yeard;
         int wageDifferenceK = yearK - yeark;
-        System.out.println("Маша теперь получает " + Masha + " рублей " + "Годовой доход вырос " + wageDifferenceM);
-        System.out.println("Денис теперь получает " + Denis + " рублей " + "Годовой доход вырос " + wageDifferenceD);
-        System.out.println("Кристина теперь получает " + Kristina + " рублей " + "Годовой доход вырос.\n " + wageDifferenceK);
+        System.out.println("Маша теперь получает " + masha + " рублей " + "Годовой доход вырос " + wageDifferenceM);
+        System.out.println("Денис теперь получает " + denis + " рублей " + "Годовой доход вырос " + wageDifferenceD);
+        System.out.println("Кристина теперь получает " + kristina + " рублей " + "Годовой доход вырос.\n " + wageDifferenceK);
 
 
     }
