@@ -10,6 +10,7 @@ public class Main {
 
 
         System.out.println(" Задача № 1  ");
+
         byte a = 7;
         short b = 10525;
         int c = 2500780;
@@ -20,10 +21,10 @@ public class Main {
         System.out.println("short = " + b);
         System.out.println("int = " + c);
         System.out.println("float =  " + f);
-        System.out.println("double =  " + x);
+        System.out.println("double =  \n" + x);
 
 
-        System.out.println(" адача №2 ");
+        System.out.println(" Задача №2 ");
         float g = 27.12f;
         long r = 987678965549L;
         float h = 2.786f;
@@ -37,7 +38,7 @@ public class Main {
         System.out.println("short = " + s);
         System.out.println("short = " + q);
         System.out.println("short = " + w);
-        System.out.println("byte = " + m);
+        System.out.println("byte = \n " + m);
 
 
         System.out.println(" Задача №3");
@@ -47,7 +48,8 @@ public class Main {
         int paper = 480;
         int student = 0;
         student = paper / (teacher1 + teacher2 + teacher3);
-        System.out.println(" На каждого ученика расчитанно  " + student + "  листов  бумаги ");
+        System.out.println(" На каждого ученика расчитанно  "
+                + student + "  листов  бумаги \n");
 
 
         System.out.println("задача №4 ");
@@ -59,7 +61,7 @@ public class Main {
         System.out.println(" за 20 минут машина произвела " + minute + " шт бутылок");
         System.out.println("За сутки машина произвела " + day + " шт бутылок ");
         System.out.println("За 3 суток  машина произвела " + day3 + " шт бутылок");
-        System.out.println("За месяц машина произвела " + month + " шт бутылок");
+        System.out.println("За месяц машина произвела " + month + " шт бутылок\n");
 
 
         System.out.println(" Задача № 5 ");
@@ -70,21 +72,21 @@ public class Main {
         int numberClasses = storage / class1;
         white = white * numberClasses;
         brown = brown * numberClasses;
-        System.out.println("в школе где " + numberClasses + " классов,нужно " + white + " банок белой краски и " + brown + " банок коричневой краски .");
+        System.out.println("в школе где " + numberClasses + " классов,нужно " + white + " банок белой краски и " + brown + " банок коричневой краски .\n");
 
 
         System.out.println("Задача № 6 ");
         int banana = 80;
         int milk = 105;
-        int IceCreamSndae = 100;
+        int iceCreamSndae = 100;
         int eggs = 70;
-        banana = banana * 5;
-        milk = milk * 2;
-        IceCreamSndae = IceCreamSndae * 2;
-        eggs = eggs * 4;
-        float breakfastWeight = banana + milk + IceCreamSndae + eggs;
+        banana *= 5;
+        milk *= 2;
+        iceCreamSndae = iceCreamSndae * 2;
+        eggs *= 4;
+        float breakfastWeight = banana + milk + iceCreamSndae + eggs;
         float kg = breakfastWeight / 1000;
-        System.out.println(("вес завтрака " + breakfastWeight) + " грам =  " + kg + " килограмм ");
+        System.out.println(("вес завтрака " + breakfastWeight) + " грам =  " + kg + " килограмм\n ");
 
 
         System.out.println("задача № 7 ");
@@ -95,29 +97,29 @@ public class Main {
         method2 = loseWeight / method2;
         System.out.println(" 1 метод потребуется " + method1 + " дней. " + " на 2 метод потребуется " + method2 + "дней.");
         int average = (int) ((method1 + method2) / 2);
-        System.out.println(" В среднем потребуется " + average + " дней .");
+        System.out.println(" В среднем потребуется " + average + " дней   \n");
 
 
-        System.out.println(" задача № 8");
-        double Masha = 67760;
-        double Denis = 83690;
-        double Kristina = 76230;
-        int yearm = (int) Masha * 12;
-        int yeard = (int) Denis * 12;
-        int yeark = (int) Kristina * 12;
-        Masha = (Masha * 0.1) + Masha;
-        Denis = (Denis * 0.1) + Denis;
-        Kristina = (Kristina * 0.1) + Kristina;
-        int yearM = (int) (Masha * 12);
-        int yearD = (int) (Denis * 12);
-        int yearK = (int) (Kristina * 12);
+        System.out.println(" задача № 8 ");
+        double masha = 67760;
+        double denis = 83690;
+        double kristina = 76230;
+        int yearm = (int) masha * 12;
+        int yeard = (int) denis * 12;
+        int yeark = (int) kristina * 12;
+        masha = (masha * 0.1) + masha;
+        denis = (denis * 0.1) + denis;
+        kristina = (kristina * 0.1) + kristina;
+        int yearM = (int) (masha * 12);
+        int yearD = (int) (denis * 12);
+        int yearK = (int) (kristina * 12);
         int wageDifferenceM = yearM - yearm;
         int wageDifferenceD = yearD - yeard;
         int wageDifferenceK = yearK - yeark;
-        System.out.println("Маша теперь получает " + Masha + " рублей " + "Годовой доход вырос " + wageDifferenceM);
-        System.out.println("Денис теперь получает " + Denis + " рублей " + "Годовой доход вырос " + wageDifferenceD);
-        System.out.println("Кристина теперь получает " + Kristina + " рублей " + "Годовой доход вырос. " + wageDifferenceK);
+        System.out.println("Маша теперь получает " + masha + " рублей " + "Годовой доход вырос " + wageDifferenceM);
+        System.out.println("Денис теперь получает " + denis + " рублей " + "Годовой доход вырос " + wageDifferenceD);
+        System.out.println("Кристина теперь получает " + kristina + " рублей " + "Годовой доход вырос.\n " + wageDifferenceK);
 
-        System.out.println("Подскажите где не правильно написан код*??????");
+
     }
 }
